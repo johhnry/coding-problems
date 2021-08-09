@@ -1,0 +1,15 @@
+{
+  "name": "coding-problems",
+  "version": "1.0.0",
+  "description": "A collection of coding problems",
+  "scripts": {
+    "test:problem": "node ./scripts/run-mocha-for-problem.js",
+    "tests": "mocha 'src/**/*.test.js'"
+  },
+  "author": "Joseph HENRY",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3"
+  }
+}
