@@ -10,7 +10,7 @@ You can modify the input array in-place.
 
 ## Function signature
 
-Implement the following function in `src/problem-4/problem-4.js`:
+Implement the following function in `src/problems/problem-4/problem-4.js`:
 
 ```javascript
 /**

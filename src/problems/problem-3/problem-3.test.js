@@ -1,3 +1,4 @@
+"use strict";
 const { expect } = require("chai");
 const { Node, serialize, deserialize } = require("./problem-3");
 

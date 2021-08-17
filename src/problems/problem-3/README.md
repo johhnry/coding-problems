@@ -23,7 +23,7 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 
 ## Function signature
 
-Implement the following function in `src/problem-3/problem-3.js`:
+Implement the following functions in `src/problems/problem-3/problem-3.js`:
 
 ```javascript
 /**

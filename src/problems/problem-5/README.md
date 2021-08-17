@@ -19,7 +19,7 @@ Implement `car` and `cdr`.
 
 ## Function signature
 
-Implement the following function in `src/problem-5/problem-5.js`:
+Implement the following functions in `src/problems/problem-5/problem-5.js`:
 
 ```javascript
 /**

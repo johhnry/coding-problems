@@ -1,3 +1,4 @@
+"use strict";
 const { expect } = require("chai");
 const { arrayToString } = require("../../utils/test");
 const twoElementsAddUpTo = require("./problem-1");

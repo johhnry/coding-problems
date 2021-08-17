@@ -8,7 +8,7 @@ For example, given `[10, 15, 3, 7]` and `k` of `17`, return true since `10 + 7` 
 
 ## Function signature
 
-Implement the following function in `src/problem-1/problem-1.js`:
+Implement the following function in `src/problems/problem-1/problem-1.js`:
 
 ```javascript
 /**

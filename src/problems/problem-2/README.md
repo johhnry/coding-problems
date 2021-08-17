@@ -8,7 +8,7 @@ For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[
 
 ## Function signature
 
-Implement the following function in `src/problem-2/problem-2.js`:
+Implement the following function in `src/problems/problem-2/problem-2.js`:
 
 ```javascript
 /**
