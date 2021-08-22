@@ -9,20 +9,12 @@
 const Mocha = require("mocha");
 const fs = require("fs");
 const path = require("path");
-
-/**
- * Exit the script with an error message
- * @param {string} message error output
- */
-function exitWithError(message) {
-  console.error(message);
-  process.exit(1);
-}
+const { exitWithError } = require("./utils");
 
 // Get the problem number as argument
-const problemNumber = process.argv.slice(2)[0];
+const problemNumber = Number.parseInt(process.argv.slice(2)[0]);
 
-if (!Number.parseInt(problemNumber)) {
+if (!problemNumber || problemNumber < 0) {
   exitWithError("You need to pass a valid problem number");
 }
 

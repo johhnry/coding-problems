@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A collection of coding problems",
   "scripts": {
+    "create:problem": "node ./scripts/create-problem.js",
     "test:problem": "node ./scripts/run-mocha-for-problem.js",
     "tests": "mocha 'src/**/*.test.js'"
   },
