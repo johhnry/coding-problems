@@ -1,5 +1,5 @@
 "use strict";
-const { expect, assert } = require("chai");
+const { expect } = require("chai");
 const { arrayToString } = require("../../utils/test");
 const numberOfUniqueWaysCanClimbStaircase = require("./problem-11");
 
