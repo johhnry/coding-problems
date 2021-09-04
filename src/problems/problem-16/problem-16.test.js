@@ -1,6 +1,5 @@
 "use strict";
 const { expect } = require("chai");
-// const { arrayToString } = require("../../utils/test");
 const computeBuilderMinimumCost = require("./problem-16");
 
 const testCases = [
