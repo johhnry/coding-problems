@@ -5,7 +5,8 @@
   "scripts": {
     "create:problem": "node ./scripts/create-problem.js",
     "test:problem": "node ./scripts/run-mocha-for-problem.js",
-    "tests": "mocha 'src/**/*.test.js'"
+    "tests": "mocha 'src/**/*.test.js'",
+    "lint": "eslint . --ext .js"
   },
   "author": "Joseph HENRY",
   "license": "ISC",

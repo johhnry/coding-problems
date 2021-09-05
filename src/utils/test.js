@@ -13,7 +13,7 @@ function arrayToString(array, maxTreshold, padding = 5) {
       if (Array.isArray(array[i])) {
         result += arrayToString(array[i], maxTreshold, padding);
       } else {
-        result += array[i].toString();
+        result += new String(array[i]);
       }
       if (i < array.length - 1) result += ", ";
     }
