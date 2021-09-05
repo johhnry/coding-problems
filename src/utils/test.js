@@ -10,7 +10,11 @@ function arrayToString(array, maxTreshold, padding = 5) {
 
   const addToResult = (s, e) => {
     for (let i = s; i < e; i++) {
-      result += array[i].toString();
+      if (Array.isArray(array[i])) {
+        result += arrayToString(array[i], maxTreshold, padding);
+      } else {
+        result += array[i].toString();
+      }
       if (i < array.length - 1) result += ", ";
     }
   };
