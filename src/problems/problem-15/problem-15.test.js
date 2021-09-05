@@ -1,4 +1,5 @@
 "use strict";
+const { describe, it } = require("mocha");
 const { expect } = require("chai");
 const { arrayToString } = require("../../utils/test");
 const maximumValuesOfEachSubarray = require("./problem-15");

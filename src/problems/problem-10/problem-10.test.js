@@ -1,4 +1,5 @@
 "use strict";
+const { describe, it } = require("mocha");
 const { expect, assert } = require("chai");
 const { arrayToString } = require("../../utils/test");
 const autocomplete = require("./problem-10");

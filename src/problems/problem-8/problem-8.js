@@ -1,5 +1,4 @@
 "use strict";
-const { inspect } = require("util");
 
 /**
  * Returns the largest sum of non-adjacent numbers

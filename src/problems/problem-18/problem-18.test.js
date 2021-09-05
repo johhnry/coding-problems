@@ -1,4 +1,5 @@
 "use strict";
+const { describe, it } = require("mocha");
 const { expect } = require("chai");
 const minimumNumberOfRoomsRequired = require("./problem-18");
 

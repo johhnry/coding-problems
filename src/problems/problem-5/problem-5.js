@@ -16,6 +16,7 @@ function cons(a, b) {
  */
 function car(pair) {
   // Your code here
+  return pair((a) => a);
 }
 
 /**

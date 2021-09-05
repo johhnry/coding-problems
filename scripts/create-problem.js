@@ -100,7 +100,7 @@ rl.on("close", function () {
       );
       fs.closeSync(fs.openSync(testFilePath, "w"));
       consoleSuccess(`-> Created file ${testFilePath}`);
-    } catch {
+    } catch (err) {
       exitWithError(`Couldn't create source file: ${err}`);
     }
 
